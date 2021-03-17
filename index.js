@@ -9,10 +9,11 @@ var jasmine = new Jasmine();
 jasmine.loadConfig({
   spec_dir: 'spec',
   spec_files: [
-    "**/*[sS]pec.js"
+    "**/*command.spec.js",
+    "**/*message.spec.js"    
   ],
   "helpers": [
-    "helpers/*.js"
+    "helpers/reporter.js"
   ],
   random: false
 });
